@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /*border: 1px solid red;*/   
+   /* border: 1px solid red;*/  
 }
 
 :root {
@@ -138,27 +138,67 @@ header{
 
 /*Fin home section ahre */
 
-.skills-section{
-    padding: 8 rem 0;
-    background: #90b494;
+/*Section mini description */
+
+.description{
+    background:lavender ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    }
+
+.description-content{
+    font-size: 1rem;
+    margin: 1rem 1rem;
+
 }
 
-.skills-section h2 {
-    font-size: 2rem;
+/*Fin mini description section */
+/*Section Skills*/
+
+.skills-section{
+    padding: 10 rem 0;
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+.skills-content h3 {
+    color: #545775;
+    font-size: 1.5rem;
     text-align: center;
     font-weight: bold;
+    padding-top: 1rem;
 }
 
-.description-section p {
+.skills-content p {
+    font-size: 0.8rem;
     text-align: center;
-    font-size: 1rem;
-    max-width: 300px;
-    margin: 2rem auto 2rem auto;
+    margin: 1rem 1.5rem;
+}
+
+.info-card{
+    width: 25%;
+    margin-bottom: 1rem;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    font-size: 0.8rem;
 }
 
 .card {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items:center;
-
 }
+
