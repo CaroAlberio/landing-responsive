@@ -25,8 +25,13 @@ body {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
+a:hover{
+    text-decoration: underline;
+
+}
 
 li {
 list-style: none;
@@ -64,14 +69,9 @@ header{
 }
 
 .item{
-    text-align: center;
-    text-transform: lowercase;
+    text-align: center;    
     display: none;
 }
-
-
-
-
 
 
 /* navbar terminado*/
@@ -299,3 +299,70 @@ footer img{
 .contacto p { 
     font-size: 0.7rem;
 }
+
+/*fin footer*/
+
+/*mediaqueries desktop*/
+
+/*@media screen and (min-width: 1024px) {}*/
+
+@media (min-width: 1024px) {
+
+/*menu*/    
+    .menu { 
+        flex-wrap: nowrap;
+    }
+    .container-items {
+        display: flex;
+        justify-content: flex-end;
+        gap: 50px
+    }
+    .item {
+        display: flex;
+    
+    }
+    .btn-container{
+        display: none;
+}
+
+/*Section 2 Home*/
+
+    .home-section{
+        flex-direction: row;  
+        justify-content: center;     
+        gap: 80px;
+        align-items: center;       
+        padding-top: 5rem;        
+    }
+
+    .home-content{      
+        justify-content: flex-start;
+        align-items: flex-start;
+        max-width: 70%;
+    }
+
+    .home-content p{
+        max-width: 700px;
+    }
+
+
+    .home-content h1{
+        text-align: ;
+
+
+    }
+    .home__img{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .micara {
+        width: 25%;
+        height: auto;
+        border-radius: 1rem;
+    }
+
+
+}
+
+
