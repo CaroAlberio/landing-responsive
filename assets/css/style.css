@@ -30,7 +30,6 @@ a {
 
 a:hover{
     text-decoration: underline;
-
 }
 
 li {
@@ -131,7 +130,7 @@ header{
 }
 
 .micara {
-    width: 60%;
+    width: 60%; 
     height: auto;
     border-radius: 1rem;
 }
@@ -160,7 +159,7 @@ header{
 /*Section Skills*/
 
 .skills-section{
-    padding: 10 rem 0;
+    padding: 10rem 0 ;
     background: whitesmoke;
     display: flex;
     flex-direction: column;
@@ -308,14 +307,27 @@ footer img{
 
 @media (min-width: 1024px) {
 
-/*menu*/    
+/*menu*/  
+
+body {
+    font-weight: 300;
+    
+}
+
+
     .menu { 
         flex-wrap: nowrap;
+        padding-top: 0.5rem;
+        padding-left: 0.5rem;
     }
     .container-items {
         display: flex;
-        justify-content: flex-end;
-        gap: 50px
+        justify-content: center;
+        gap: 100px;       
+        font-weight: 300px;
+        font-size: small;
+        font-size: var(--bold);
+
     }
     .item {
         display: flex;
@@ -327,42 +339,154 @@ footer img{
 
 /*Section 2 Home*/
 
+
+
     .home-section{
         flex-direction: row;  
         justify-content: center;     
         gap: 80px;
         align-items: center;       
-        padding-top: 5rem;        
+        padding-top: 3rem;        
     }
 
     .home-content{      
-        justify-content: flex-start;
-        align-items: flex-start;
-        max-width: 70%;
+       /* background-color: #90b494; */
+        max-width: 50%;
+        padding-left: 6rem;
+    }
+
+    .home-content h1{
+        text-align: left;
+        padding: 1rem;
+        font-size: 3rem;
     }
 
     .home-content p{
-        max-width: 700px;
-    }
+        text-align: left;
+        font-size: 1rem;
+        padding-right: 2rem ; 
+        padding-bottom: 2rem;    
+        }
 
-
-    .home-content h1{
-        text-align: ;
-
-
-    }
-    .home__img{
+    .btns {
         display: flex;
         justify-content: center;
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        gap: 4rem;
+        }
+        
+    .btn-contact {           
+        background: var(--lilita);
+        color: whitesmoke ;
+        padding: 0.8rem 0.8rem;
+        border-radius: 0.6rem;
+        }
+        
+    .btn-linkedin{
+        background-color: white;
+        color: #545775;
+        padding: 0.8rem 0.8rem;
+        border-radius: 0.6rem;
+        border: 1px solid var(--lilita);    
+        }
+
+    .home__img{
+        /*background-color: aqua; */
+        display: flex;
+        justify-content: center;
+        max-width: 50%;        
     }
     
+
     .micara {
-        width: 25%;
+        width: 40%;
         height: auto;
-        border-radius: 1rem;
+        border-radius: 2rem;
     }
 
 
+    /*Section 2 */
+
+    .description-content{
+        font-size: 1rem;
+        text-align: center;
+        padding: 4rem;
+        padding-left: 15rem;
+        padding-right: 15rem;    
+    }
+
+    /*SEction 3 */
+
+    .skills-section {
+        padding-top: 3rem;
+        padding-bottom: 10rem;
+    }
+    .skills-content h3 {
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    .skills-content p {
+        padding: 2rem 5rem;     
+        font-size: 1rem;
+    }
+
+    .card-container{        
+        flex-direction: row;
+        justify-content: center;
+        align-items: baseline;
+        
+    }
+
+
+    /*Section 4*/
+
+    .how-section {
+        padding-top: 3rem;
+        padding-bottom: 10rem;
+    }
+    .how-content h3 {
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    .how-content p {
+        padding: 2rem 5rem;     
+        font-size: 1rem;
+    }
+
+    .card-container{        
+        flex-direction: row;
+        justify-content: center;
+        align-items: baseline;
+    }
+
+/*Section 5 */
+
+.how-section {
+    padding-top: 3rem;
+    padding-bottom: 10rem;
+}
+.how-content h3 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.how-content p {
+    padding: 2rem 5rem;     
+    font-size: 1rem;
+}
+
+.card-container{        
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+
+
+
+    
 }
 
 
