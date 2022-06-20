@@ -37,9 +37,12 @@ list-style: none;
 }
 
 header{
-    background: transparent;
+    background: whitesmoke;
     padding: 0.15px;
+    position: sticky;
+    top: 0;
 }
+
 
 
 
