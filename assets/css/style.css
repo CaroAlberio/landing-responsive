@@ -28,9 +28,7 @@ a {
     color: black;
 }
 
-a:hover{
-    text-decoration: underline;
-}
+
 
 li {
 list-style: none;
@@ -126,6 +124,18 @@ header{
     border-radius: 0.5rem;
     border: 1px solid var(--lilita);    
 }
+
+.btn-contact:hover {
+    background: white;
+    color: #545775;
+    border: 1px solid var(--lilita);  
+}
+
+.btn-linkedin:hover {
+    background: var(--lilita);
+    color: white;
+}
+
 
 .home__img{
     display: flex;
